@@ -18,7 +18,7 @@ class Board:
         self.__cell_width = self.WIDTH / m
         self.__cell_height = self.HEIGHT / n
 
-        self.__field: list[list[(int, int)]]
+#         self.__field: list[list[(int, int)]]
         self.create_matrix()
         self.draw()
 
